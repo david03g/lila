@@ -97,4 +97,5 @@ object topnav:
       //     a(href := routes.Search.index())(trans.search.advancedSearch())
       //   )
       // )
+      )
     )

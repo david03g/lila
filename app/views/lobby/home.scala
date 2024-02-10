@@ -72,7 +72,7 @@ object home:
               trans.streamersMenu(),
               " »"
             )
-          ),
+        )),
         //   div(cls := "lobby__spotlights")(
         //     events.map(bits.spotlight),
         //     views.html.relay.bits.spotlight(relays),
@@ -150,6 +150,7 @@ object home:
           views.html.base.bits.connectLinks
         )
       )
+    
     }
 
   private val i18nKeys = List(
